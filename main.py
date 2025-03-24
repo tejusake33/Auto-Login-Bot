@@ -23,9 +23,9 @@ def startbot(username, password, url):
     time.sleep(60)
     driver.quit()
 
-username = "sakharetejashree@gmail.com"
-password = "Tejashree@2002"
+username = "Your-username"
+password = "Your-Password"
 
-url = "https://intapidm.infosysapps.com/auth/realms/careersite/protocol/openid-connect/auth?client_id=careersite&redirect_uri=https%3A%2F%2Fcareer.infosys.com%2Fjobs%2Fmyapplication&state=1a8ecf4f-22dc-4f57-b83a-3747e7ae6871&response_mode=fragment&response_type=code&scope=openid&nonce=11ac6448-bad5-45e1-8d64-e0b6a2985d11"
+url = "url-you-want-to-login"
 
 startbot(username,password,url)
